@@ -21,7 +21,7 @@ public class bl_LobbyRoomCreatorUI : MonoBehaviour
     public bl_MFPSRoomPreview roomPreview;
 
     private GameModeSettings[] allModes;
-    private string defaultRoomName = "Server";
+    private string defaultRoomName = "서버";
     private string[] endPoints = new string[]
     {
         "Players","Minute"
