@@ -30,8 +30,8 @@ public class bl_KillCamUI :  bl_KillCamUIBase
         bl_GunInfo info = bl_GameData.Instance.GetWeapon(kcinfo.GunID);
         GunImage.sprite = info.GunIcon;
         GunNameText.text = info.Name.ToUpper();
-        killer = killer.Replace("(die)", "");
-        KillerNameText.text = killer;
+        killer = killer.Replace("(죽음)", "");
+        KillerNameText.text = $"{killer}에게 처치당했습니다";
         KillCamSpectatingText.text = string.Format("<size=8>{0}:</size>\n{1}", bl_GameTexts.Spectating.Localized(26).ToUpper(), killer);
 
         levelIcon.gameObject.SetActive(false);
@@ -42,7 +42,7 @@ public class bl_KillCamUI :  bl_KillCamUIBase
 
             var pdm = actor.Actor.GetComponent<bl_PlayerHealthManagerBase>();
             int health = Mathf.FloorToInt(pdm.GetHealth());
-            if (pdm != null) { KillerHealthText.text = string.Format("HEALTH: {0}", health); }
+            if (pdm != null) { KillerHealthText.text = string.Format("체력: {0}", health); }
 
             if (actor.isRealPlayer)
             {
