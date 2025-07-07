@@ -83,7 +83,7 @@ MonoBehaviour:
     NoAllowedGameModes: 
   - ShowName: kitchen
     m_Scene: {fileID: 102900000, guid: 247836bc6c34df4499eaced485393833, type: 3}
-    RealSceneName: 
+    RealSceneName: Map1
     Preview: {fileID: 21300000, guid: c5751722c84c7fa42aaf046538183922, type: 3}
     NoAllowedGameModes: 
   AllWeapons:
