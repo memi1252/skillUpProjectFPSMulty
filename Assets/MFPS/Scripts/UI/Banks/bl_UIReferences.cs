@@ -154,7 +154,7 @@ public class bl_UIReferences : bl_PhotonHelper, IInRoomCallbacks
 #if LOCALIZATION
                 MaxKillsText.text = string.Format("{0} {1}", MaxKills, LocaleStrings[0]);
 #else
-            MaxKillsText.text = string.Format("{0} KILLS", MaxKills);
+            MaxKillsText.text = string.Format("{0} 킬", MaxKills);
 #endif
             }
         }
