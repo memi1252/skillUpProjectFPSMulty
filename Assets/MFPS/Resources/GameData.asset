@@ -240,6 +240,23 @@ MonoBehaviour:
       NoAllowedCoins: 
     PickUpPrefab: {fileID: 2182012474359713845, guid: b751948c71cc1ca4bbdbaa907b6b29a4, type: 3}
     GunIcon: {fileID: 21300000, guid: 66989a3326d0d8b4a8d56ec63528d5c5, type: 3}
+  - Name: donhampWaterGun
+    Type: 1
+    Active: 1
+    Damage: 15
+    FireRate: 0.54
+    ReloadTime: 5
+    Range: 500
+    Accuracy: 1
+    Weight: 2
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 3732481549941832845, guid: d34442354dcf98c49891bc01fc0059a1, type: 3}
+    GunIcon: {fileID: 21300000, guid: 66989a3326d0d8b4a8d56ec63528d5c5, type: 3}
   defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
   gameModes:
   - ModeName: Team Death Match
