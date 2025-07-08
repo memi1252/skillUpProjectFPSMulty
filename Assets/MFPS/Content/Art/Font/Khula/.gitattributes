@@ -1,3 +1,5 @@
 Khula-Regular.ttf filter=lfs diff=lfs merge=lfs -text
 Khula-Regular[[:space:]]SDF filter=lfs diff=lfs merge=lfs -text
 Khula-Regular[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+Oswald[wght][[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+Oswald[wght] filter=lfs diff=lfs merge=lfs -text
