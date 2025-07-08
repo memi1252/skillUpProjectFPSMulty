@@ -304,7 +304,7 @@ MonoBehaviour:
     timeLimits: 8403000058020000b00400002c010000
   - ModeName: Covert Point
     gameMode: 4
-    isEnabled: 0
+    isEnabled: 1
     supportBots: 0
     AutoTeamSelection: 1
     UnlistGameAfterStarted: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
     timeLimits: 8403000058020000b00400002c010000
   - ModeName: Gun Race
     gameMode: 5
-    isEnabled: 0
+    isEnabled: 1
     supportBots: 0
     AutoTeamSelection: 0
     UnlistGameAfterStarted: 0
@@ -334,7 +334,7 @@ MonoBehaviour:
     timeLimits: 8403000058020000b00400002c010000
   - ModeName: Demolition
     gameMode: 8
-    isEnabled: 0
+    isEnabled: 1
     supportBots: 0
     AutoTeamSelection: 1
     UnlistGameAfterStarted: 1
@@ -349,7 +349,7 @@ MonoBehaviour:
     timeLimits: 7800000058020000b00400002c010000
   - ModeName: Battle Royal
     gameMode: 6
-    isEnabled: 0
+    isEnabled: 1
     supportBots: 0
     AutoTeamSelection: 1
     UnlistGameAfterStarted: 1
@@ -364,7 +364,7 @@ MonoBehaviour:
     timeLimits: 8403000058020000b00400002c010000
   - ModeName: Kill Confirmed
     gameMode: 9
-    isEnabled: 0
+    isEnabled: 1
     supportBots: 1
     AutoTeamSelection: 1
     UnlistGameAfterStarted: 0
