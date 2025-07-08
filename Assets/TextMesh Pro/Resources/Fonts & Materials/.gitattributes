@@ -1,1 +1,2 @@
 LiberationSans[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+LiberationSans[[:space:]]SDF[[:space:]]-[[:space:]]Fallback.asset filter=lfs diff=lfs merge=lfs -text

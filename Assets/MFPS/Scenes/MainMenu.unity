@@ -1479,7 +1479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104125656827917090, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.322968
+      value: -26.322998
       objectReference: {fileID: 0}
     - target: {fileID: 2286578857751703186, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: sceneViewId
@@ -1523,7 +1523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2668895181861110947, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 647.5101
+      value: 647.51
       objectReference: {fileID: 0}
     - target: {fileID: 2668895181861110947, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4889,7 +4889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053474612758431893, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.32492
+      value: -26.324951
       objectReference: {fileID: 0}
     - target: {fileID: 9053474612946586740, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchorMax.y
