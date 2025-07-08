@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 202df628334fb2a4daf60a54e9de6749, type: 3}
-  m_Name: GamePad [xbox]
+  m_Name: 'GamePad [xbox]'
   m_EditorClassIdentifier: 
   inputType: 1
   mapped:
@@ -25,7 +25,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Aim
-      Description: Aiming
+      Description: "\uC870\uC900"
       PrimaryKey: 0
       AlternativeKey: 0
       PrimaryAxis: LT
