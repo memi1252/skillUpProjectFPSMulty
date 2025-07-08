@@ -34,7 +34,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Reload
-      Description: Reload
+      Description: "\uC7AC\uC7A5\uC804"
       PrimaryKey: 114
       AlternativeKey: 0
       PrimaryAxis: 
