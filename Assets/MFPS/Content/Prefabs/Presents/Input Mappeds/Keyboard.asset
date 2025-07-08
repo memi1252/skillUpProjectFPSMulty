@@ -16,7 +16,7 @@ MonoBehaviour:
   mapped:
     ButtonMap:
     - KeyName: Fire
-      Description: Fire
+      Description: "\uBC1C\uC0AC"
       PrimaryKey: 323
       AlternativeKey: 0
       PrimaryAxis: 
@@ -25,7 +25,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Aim
-      Description: Aiming
+      Description: "\uC870\uC900"
       PrimaryKey: 324
       AlternativeKey: 0
       PrimaryAxis: 
@@ -34,7 +34,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Reload
-      Description: Reload
+      Description: "\uC7AC\uC7A5\uC804"
       PrimaryKey: 114
       AlternativeKey: 0
       PrimaryAxis: 

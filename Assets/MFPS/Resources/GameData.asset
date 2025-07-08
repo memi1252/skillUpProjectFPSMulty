@@ -226,7 +226,7 @@ MonoBehaviour:
   - Name: WaterGun
     Type: 1
     Active: 1
-    Damage: 5
+    Damage: 10
     FireRate: 0.5
     ReloadTime: 5
     Range: 500
