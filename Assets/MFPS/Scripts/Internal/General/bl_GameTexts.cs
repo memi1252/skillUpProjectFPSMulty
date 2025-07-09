@@ -99,12 +99,23 @@
     public static string WinMatch = "경기 승리: +{0}";
     public static string TotalScore = "총 점수";
 
-    public static readonly string[] RandomNames = new string[] { "John", "William", "Michael", "Jason", "Aaron", "Angie", "Benjamin", "Cody", "Dany", "Gao",
-        "Jacob", "Jeese","Katherin","Lee","Massimo", "Oliver", "Pride", "Sarah", "Thomas", "Tuan", "Johnson", "Lovo", "Patick", "Derek", "Felix", "Harry",
-        "Ian", "Jani", "Petroske", "Kyler", "Marco", "Rosa", "Santos", "Astrid","Elvis", "Mueller", "Ryan", "Komatsu", "Vladimir", "Yank", "Albert",
-        "Maxwell", "Daria", "Ethan", "Jake", "Holm", "Tobiass", "Karen", "David", "Moly", "Charlie", "Bruno", "Dayanara", "Blanca","Juan", "Jose", "Sthepen",
- "Tim", "Xuan", "Alex", "Jenskin", "Boris", "Morrison", "Blaga", "Umer", "Eva", "Grace", "Park", "Jesper", "Kim", "Karl", "Knut", "Rusell", "Elmer",
-        "Ricardo", "Bertha","Ferris", "Mateo", "Ronaldo", "Amy", "Ariana", "Marlene", "Alfred", "Andy", "Calvin", "Ron", "Bill", "Magnus", "Tesla",
-        "Feynman", "Lee", "Elon", "Steve", "Newton", "Lovelace", "Hopper", "Linus", "Paul", "Allen", "Thompson", "Charles", "Margaret", "Alan", "Turin",
-        "Carman", "Bjarne", "Marie", "Galileo", "Crick", "Nikola", "Louis", "Neil", "Wilkins", "Gianna"};
+    public static readonly string[] RandomNames = new string[] { "배고픈 이동현", "짜증난 임세훈", "신난 성현원", "심심한 전도원", "졸린 동햄", "화난 이상규", "숨이찬 손석환",
+"집중하는 장준혁", "답답한 김재원", "부끄러운 나은유", "흥분한 김도영", "초조한 김민찬", "무심한 황지우",
+"놀란 김용범", "감성적인 임세훈", "당황한 신주혁", "무표정한 김재원", "활기찬 곽대은", "들뜬 나은유",
+"지루한 전도원", "졸린 김도영", "시무룩한 황지우", "당당한 황우빈", "피곤한 김민찬", "멘붕 온 손석환",
+"설레는 성현원", "억울한 이상규", "말없는 장준혁", "따분한 민옥규", "어리둥절한 김용범", "조용한 장준혁",
+"허기진 이동현", "뿌듯한 김도영", "활짝 웃는 성현원", "긴장한 김민찬", "멍한 민옥규", "차분한 황우빈",
+"무기력한 임세훈", "의욕 넘치는 김도영", "졸린 곽대은", "화끈한 손석환", "따뜻한 신주혁", "쑥스러운 동햄",
+"무거운 김재원", "열정적인 이상규", "혼란스러운 전도원", "여유로운 성현원", "느긋한 김용범",
+"기운 빠진 이동현", "예민한 임세훈", "행복한 나은유", "차가운 김민찬", "활달한 황우빈", "서운한 신주혁",
+"억눌린 손석환", "기분 좋은 김도영", "너그러운 곽대은", "답답한 이동현", "터질 듯한 김재원",
+"설명하기 귀찮은 전도원", "미소 짓는 이상규", "조용히 화난 장준혁", "불안한 민옥규", "깊은 생각에 잠긴 황지우",
+"기대하는 성현원", "멍 때리는 곽대은", "걱정 많은 신주혁", "미묘한 나은유", "지친 김민찬",
+"소심한 김용범", "무감정한 황우빈", "느낌 없는 이동현", "따끈따끈한 김도영", "기운 넘치는 성현원",
+"분노한 임세훈", "애매한 김재원", "가뿐한 손석환", "예의 바른 장준혁", "달콤한 나은유", "시끄러운 전도원",
+"눈치 보는 김용범", "걱정 없는 곽대은", "덜 깬 동햄", "말이 없는 황지우", "활짝 핀 이상규",
+"신경 쓰이는 김도영", "푸근한 민옥규", "허탈한 이동현", "들떠 있는 신주혁", "차분한 장준혁",
+"긴장 푼 임세훈", "웃긴 성현원", "지켜보는 곽대은", "잠에서 덜 깬 김민찬", "이유 모를 불안의 김재원",
+"애정 어린 황지우", "급한 김용범", "마음 편한 나은유", "힘 빠진 이상규"
+        };
 }

@@ -61,8 +61,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a8e2d139cede6ec4dbb43712a6f9a86f, type: 2}
   - {fileID: 11400000, guid: 6249e2dd81be65b448a55259fd1d2bea, type: 2}
   GameVersion: 1.9.4
-  guestNameFormat: Guest {0}
-  botsNameFormat: BOT {0}
+  guestNameFormat: "[\uAC8C\uC2A4\uD2B8] {0}"
+  botsNameFormat: "[\uBD07] {0}"
   SpawnProtectedTime: 5
   CountDownTime: 10
   PlayerRespawnTime: 7
@@ -231,7 +231,7 @@ MonoBehaviour:
   - Name: WaterGun
     Type: 1
     Active: 1
-    Damage: 10
+    Damage: 15
     FireRate: 0.3
     ReloadTime: 5
     Range: 100
@@ -248,8 +248,8 @@ MonoBehaviour:
   - Name: donhampWaterGun
     Type: 1
     Active: 1
-    Damage: 15
-    FireRate: 0.09
+    Damage: 8
+    FireRate: 0.17
     ReloadTime: 5
     Range: 100
     Accuracy: 1

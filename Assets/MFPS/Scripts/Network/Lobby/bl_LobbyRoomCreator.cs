@@ -5,7 +5,7 @@ using MFPS.Internal.Structures;
 
 public class bl_LobbyRoomCreator : MonoBehaviour, IConnectionCallbacks, ILobbyCallbacks
 {
-    public string defaultRoomPrefix = "Room";
+    public string defaultRoomPrefix = "방";
 
     /// <summary>
     /// 
