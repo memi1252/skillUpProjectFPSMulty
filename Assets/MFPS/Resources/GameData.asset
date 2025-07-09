@@ -232,7 +232,7 @@ MonoBehaviour:
     Type: 1
     Active: 1
     Damage: 10
-    FireRate: 0.5
+    FireRate: 0.3
     ReloadTime: 5
     Range: 100
     Accuracy: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
     Type: 1
     Active: 1
     Damage: 15
-    FireRate: 0.54
+    FireRate: 0.09
     ReloadTime: 5
     Range: 100
     Accuracy: 1
@@ -412,7 +412,7 @@ MonoBehaviour:
   tagsAndLayersSettings: {fileID: 11400000, guid: a4bcf2e6bc508bb4b914bd8659a80b09, type: 2}
   sceneLoader: {fileID: 11400000, guid: 29378ef374afdda4997808cca6533c28, type: 2}
   GameTeam:
-  - UserName: Lovatto
+  - UserName: "\uB9E4\uBBF8"
     m_Role: 0
     Password: 123456
     m_Color: {r: 1, g: 0, b: 0.1862073, a: 1}
