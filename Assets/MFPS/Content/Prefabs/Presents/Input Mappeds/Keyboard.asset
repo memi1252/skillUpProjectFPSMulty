@@ -43,7 +43,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Forward
-      Description: Move Forward
+      Description: "\uC55E\uC73C\uB85C \uC774\uB3D9"
       PrimaryKey: 119
       AlternativeKey: 0
       PrimaryAxis: 
@@ -52,7 +52,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Backward
-      Description: Move Backward
+      Description: "\uB4A4\uB85C \uC774\uB3D9"
       PrimaryKey: 115
       AlternativeKey: 0
       PrimaryAxis: 
@@ -61,7 +61,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Left
-      Description: Strafe Left
+      Description: "\uC67C\uCABD\uC73C\uB85C \uC774\uB3D9"
       PrimaryKey: 97
       AlternativeKey: 0
       PrimaryAxis: 
@@ -70,7 +70,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Right
-      Description: Strafe Right
+      Description: "\uC624\uB978\uCABD\uC73C\uB85C \uC774\uB3D9"
       PrimaryKey: 100
       AlternativeKey: 0
       PrimaryAxis: 
@@ -79,7 +79,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Run
-      Description: Sprint
+      Description: "\uB2EC\uB9AC\uAE30"
       PrimaryKey: 304
       AlternativeKey: 0
       PrimaryAxis: 
@@ -88,7 +88,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Jump
-      Description: Jump
+      Description: "\uC810\uD504"
       PrimaryKey: 32
       AlternativeKey: 0
       PrimaryAxis: 
@@ -97,7 +97,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Crouch
-      Description: Crouch
+      Description: "\uC549\uAE30"
       PrimaryKey: 99
       AlternativeKey: 0
       PrimaryAxis: 
@@ -106,7 +106,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Stealth
-      Description: Player Stealth Mode
+      Description: "\uD50C\uB808\uC774\uC5B4 \uC740\uC2E0 \uBAA8\uB4DC"
       PrimaryKey: 306
       AlternativeKey: 0
       PrimaryAxis: 
@@ -115,7 +115,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Interact
-      Description: Interact
+      Description: "\uC0C1\uD638\uC791\uC6A9"
       PrimaryKey: 102
       AlternativeKey: 0
       PrimaryAxis: 
@@ -124,7 +124,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: ThrowItem
-      Description: Throw Item
+      Description: "\uC544\uC774\uD15C \uB358\uC9C0\uAE30"
       PrimaryKey: 104
       AlternativeKey: 0
       PrimaryAxis: 
@@ -133,7 +133,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Weapon1
-      Description: Weapon Slot 1
+      Description: "\uBB34\uAE30 \uC2AC\uB86F 1"
       PrimaryKey: 49
       AlternativeKey: 0
       PrimaryAxis: 
@@ -142,7 +142,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Weapon2
-      Description: Weapon Slot 2
+      Description: "\uBB34\uAE30 \uC2AC\uB86F 2"
       PrimaryKey: 50
       AlternativeKey: 0
       PrimaryAxis: 
@@ -151,7 +151,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Weapon3
-      Description: Weapon Slot 3
+      Description: "\uBB34\uAE30 \uC2AC\uB86F 3"
       PrimaryKey: 51
       AlternativeKey: 0
       PrimaryAxis: 
@@ -160,7 +160,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Weapon4
-      Description: Weapon Slot 4
+      Description: "\uBB34\uAE30 \uC2AC\uB86F 4"
       PrimaryKey: 52
       AlternativeKey: 0
       PrimaryAxis: 
@@ -169,7 +169,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: NextWeapon
-      Description: Next Weapon
+      Description: "\uB2E4\uC74C \uBB34\uAE30 \uC2AC\uB86F "
       PrimaryKey: 0
       AlternativeKey: 0
       PrimaryAxis: Mouse ScrollWheel
@@ -178,7 +178,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 0.1
     - KeyName: PreviousWeapon
-      Description: Previous Weapon
+      Description: "\uC774\uC804 \uBB34\uAE30 \uC2AC\uB86F"
       PrimaryKey: 0
       AlternativeKey: 0
       PrimaryAxis: Mouse ScrollWheel
@@ -187,7 +187,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: -0.1
     - KeyName: FireType
-      Description: Change Fire Rate
+      Description: "\uC0AC\uACA9 \uBAA8\uB4DC \uBCC0\uACBD"
       PrimaryKey: 98
       AlternativeKey: 0
       PrimaryAxis: 
@@ -196,7 +196,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: FastKnife
-      Description: Quick Knife Shot
+      Description: "\uBE60\uB978 \uCE7C \uACF5\uACA9"
       PrimaryKey: 118
       AlternativeKey: 0
       PrimaryAxis: 
@@ -205,7 +205,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: QuickNade
-      Description: Quick Nade
+      Description: "\uBE60\uB978 \uC218\uB958\uD0C4 \uB358\uC9C0\uAE30"
       PrimaryKey: 103
       AlternativeKey: 0
       PrimaryAxis: 
@@ -214,7 +214,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: Scoreboard
-      Description: Scoreboard
+      Description: "\uC810\uC218\uD310"
       PrimaryKey: 9
       AlternativeKey: 0
       PrimaryAxis: 
@@ -223,7 +223,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: GeneralChat
-      Description: Chat
+      Description: "\uCC44\uD305"
       PrimaryKey: 116
       AlternativeKey: 0
       PrimaryAxis: 
@@ -232,7 +232,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: TeamChat
-      Description: Team Chat
+      Description: "\uD300 \uCC44\uD305"
       PrimaryKey: 121
       AlternativeKey: 0
       PrimaryAxis: 
@@ -241,7 +241,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: SwitchView
-      Description: Change Camera View
+      Description: "\uCE74\uBA54\uB77C \uC2DC\uC810 \uBCC0\uACBD"
       PrimaryKey: 112
       AlternativeKey: 0
       PrimaryAxis: 
@@ -250,7 +250,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: VoiceTalk
-      Description: Push To Talk
+      Description: "\uB20C\uB7EC \uB9D0\uD558\uAE30"
       PrimaryKey: 105
       AlternativeKey: 0
       PrimaryAxis: 
@@ -259,7 +259,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: KillStreak 1
-      Description: Execute Kill Streak 1
+      Description: "\uD0AC \uC5F0\uC18D \uCC98\uCE58 1\uB2E8\uACC4 \uC2E4\uD589"
       PrimaryKey: 257
       AlternativeKey: 0
       PrimaryAxis: 
@@ -268,7 +268,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: KillStreak 2
-      Description: Execute Kill Streak 2
+      Description: "\uD0AC \uC5F0\uC18D \uCC98\uCE58 2\uB2E8\uACC4 \uC2E4\uD589"
       PrimaryKey: 258
       AlternativeKey: 0
       PrimaryAxis: 
@@ -277,7 +277,7 @@ MonoBehaviour:
       AlternativeIsAxis: 0
       AxisValue: 1
     - KeyName: KillStreak 3
-      Description: Execute Kill Streak 3
+      Description: "\uD0AC \uC5F0\uC18D \uCC98\uCE58 3\uB2E8\uACC4 \uC2E4\uD589"
       PrimaryKey: 259
       AlternativeKey: 0
       PrimaryAxis: 
