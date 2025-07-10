@@ -140,12 +140,12 @@ public class bl_WaitingRoomUI : bl_WaitingRoomUIBase
         GameModeText.text = mode.GetName().ToUpper();
         int t = (int)room.CustomProperties[PropertiesKeys.TimeRoomKey];
         TimeText.text = (t / 60).ToString().ToUpper() + ":00";
-        BotsText.text = string.Format("BOTS: {0}", (bool)room.CustomProperties[PropertiesKeys.WithBotsKey] ? "ON" : "OFF");
-        FriendlyFireText.text = string.Format("FRIENDLY FIRE: {0}", (bool)room.CustomProperties[PropertiesKeys.RoomFriendlyFire] ? "ON" : "OFF");       
+        BotsText.text = string.Format("봇: {0}", (bool)room.CustomProperties[PropertiesKeys.WithBotsKey] ? "O" : "X");
+        FriendlyFireText.text = string.Format("팀킬: {0}", (bool)room.CustomProperties[PropertiesKeys.RoomFriendlyFire] ? "O" : "X");       
         UpdatePlayerCount();
         readyButtons[0].gameObject.SetActive(bl_PhotonNetwork.IsMasterClient);
         readyButtons[1].gameObject.SetActive(!bl_PhotonNetwork.IsMasterClient);
-        readyButtons[1].GetComponentInChildren<TextMeshProUGUI>().text = bl_WaitingRoomBase.Instance.IsLocalReady() ? "CANCEL".Localized(67).ToUpper() : "READY".Localized(184).ToUpper();
+        readyButtons[1].GetComponentInChildren<TextMeshProUGUI>().text = bl_WaitingRoomBase.Instance.IsLocalReady() ? "취소".Localized(67).ToUpper() : "준비".Localized(184).ToUpper();
 
         string goal = room.CustomProperties[PropertiesKeys.RoomGoal].ToString();
         if (goal == "0" || string.IsNullOrEmpty(goal))
@@ -169,20 +169,20 @@ public class bl_WaitingRoomUI : bl_WaitingRoomUIBase
         {
             bool allRequired = (PhotonNetwork.PlayerList.Length >= required);
             readyButtons[0].interactable = (bl_PhotonNetwork.IsMasterClient && PhotonNetwork.PlayerList.Length >= required);
-            PlayerCountText.text = string.Format("{0} OF {2} PLAYERS ({1} MAX)", PhotonNetwork.PlayerList.Length, PhotonNetwork.CurrentRoom.MaxPlayers, required);
+            PlayerCountText.text = string.Format("{0} OF {2} 플레이어 ({1} 최대)", PhotonNetwork.PlayerList.Length, PhotonNetwork.CurrentRoom.MaxPlayers, required);
             waitingRequiredPlayersUI?.SetActive(!allRequired);
         }
         else
         {
             readyButtons[0].interactable = true;
             waitingRequiredPlayersUI?.SetActive(false);
-            PlayerCountText.text = string.Format("{0} PLAYERS ({1} MAX)", PhotonNetwork.PlayerList.Length, PhotonNetwork.CurrentRoom.MaxPlayers);
+            PlayerCountText.text = string.Format("{0} 플레이어 ({1} 최대)", PhotonNetwork.PlayerList.Length, PhotonNetwork.CurrentRoom.MaxPlayers);
         }
 
         int spectatorsCount = GetSpectatorsCount();
         if(spectatorsCount > 0)
         {
-            PlayerCountText.text += $" SPECTATORS {spectatorsCount}";
+            PlayerCountText.text += $" 관전자 {spectatorsCount}";
         }
     }
 
@@ -200,7 +200,7 @@ public class bl_WaitingRoomUI : bl_WaitingRoomUIBase
     public void SetLocalReady()
     {
         bl_WaitingRoomBase.Instance.SetLocalPlayerReady();
-        readyButtons[1].GetComponentInChildren<TextMeshProUGUI>().text = bl_WaitingRoomBase.Instance.IsLocalReady() ? "CANCEL".Localized(67).ToUpper() : "READY".Localized(184).ToUpper();
+        readyButtons[1].GetComponentInChildren<TextMeshProUGUI>().text = bl_WaitingRoomBase.Instance.IsLocalReady() ? "취소".Localized(67).ToUpper() : "준비".Localized(184).ToUpper();
     }
 
     /// <summary>

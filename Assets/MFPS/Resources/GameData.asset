@@ -264,7 +264,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 66989a3326d0d8b4a8d56ec63528d5c5, type: 3}
   defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
   gameModes:
-  - ModeName: Team Death Match
+  - ModeName: "\uD300 \uB370\uC2A4 \uB9E4\uCE58"
     gameMode: 0
     isEnabled: 1
     supportBots: 1
@@ -279,7 +279,7 @@ MonoBehaviour:
     maxPlayers: 060000000200000004000000080000000a00000010000000
     GameGoalsOptions: 320000006400000096000000c8000000
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Free For All
+  - ModeName: "\uBAA8\uB450\uB97C \uC704\uD55C \uBB34\uB8CC"
     gameMode: 1
     isEnabled: 0
     supportBots: 1
@@ -294,7 +294,7 @@ MonoBehaviour:
     maxPlayers: 060000000200000004000000080000000c000000
     GameGoalsOptions: 19000000320000004b0000000a000000
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Capture Of Flag
+  - ModeName: "\uAE43\uBC1C\uC804"
     gameMode: 2
     isEnabled: 1
     supportBots: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: 05000000070000000b00000003000000
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Elimination
+  - ModeName: "\uC81C\uAC70"
     gameMode: 7
     isEnabled: 0
     supportBots: 1
@@ -324,7 +324,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: 05000000070000000b00000003000000
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Covert Point
+  - ModeName: " \uC740\uBC00\uD55C \uC9C0\uC810"
     gameMode: 4
     isEnabled: 1
     supportBots: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: f4010000e8030000dc050000d0070000
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Gun Race
+  - ModeName: "\uCD1D \uACBD\uC8FC"
     gameMode: 5
     isEnabled: 1
     supportBots: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: 
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Demolition
+  - ModeName: "\uD30C\uAD34"
     gameMode: 8
     isEnabled: 1
     supportBots: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: 0500000007000000030000000d000000
     timeLimits: 7800000058020000b00400002c010000
-  - ModeName: Battle Royal
+  - ModeName: "\uBC30\uD2C0\uB85C\uC584"
     gameMode: 6
     isEnabled: 1
     supportBots: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
     maxPlayers: 06000000020000000400000008000000
     GameGoalsOptions: 
     timeLimits: 8403000058020000b00400002c010000
-  - ModeName: Kill Confirmed
+  - ModeName: "\uC0AC\uC0B4 \uD655\uC778\uB428"
     gameMode: 9
     isEnabled: 1
     supportBots: 1
