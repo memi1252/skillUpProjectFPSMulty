@@ -13,12 +13,12 @@
     public static string KC = "킬 확인";
 
     public static string PickUpMedicalKit = "의료 키트를 줍다";
-    public static string PickUpAmmoKit = "물통을 줍다";
+    public static string PickUpAmmoKit = "물통을  줍다";
     public static string PickUpWeapon = "무기 <color=#70ABFF>{0}</color>를(을) 줍기 위해 {1} 키를 누르세요";
     public static string PickUpWeaponEquipped = "<color=#70ABFF>{0}</color>는 이미 장착되어 있습니다.";
     public static string Touch = "터치";
-    public static string OutOfAmmo = "물이 부족합니다";
-    public static string Reload = "물충전중";
+    public static string OutOfAmmo = "물충전중";
+    public static string Reload = "물이 부족합니다";
     public static string LowAmmo = "물 부족";
     public const string OpenDoor = "문 열기";
     public const string CloseDoor = "문 닫기";
