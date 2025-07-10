@@ -4170,7 +4170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6631396265580906559, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
-      value: "\uCC38\uC5EC\uD558\uAE30"
+      value: "\uB124"
       objectReference: {fileID: 0}
     - target: {fileID: 6631396265580906559, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_fontAsset
@@ -4678,7 +4678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7281704451846789651, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
-      value: "\uCDE8\uC18C"
+      value: "\uC544\uB2C8\uC694"
       objectReference: {fileID: 0}
     - target: {fileID: 7281704451846789651, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_fontAsset
