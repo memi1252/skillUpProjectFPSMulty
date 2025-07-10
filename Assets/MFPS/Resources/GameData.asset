@@ -262,6 +262,23 @@ MonoBehaviour:
       NoAllowedCoins: 
     PickUpPrefab: {fileID: 3732481549941832845, guid: d34442354dcf98c49891bc01fc0059a1, type: 3}
     GunIcon: {fileID: 21300000, guid: 66989a3326d0d8b4a8d56ec63528d5c5, type: 3}
+  - Name: WaterPistol
+    Type: 1
+    Active: 1
+    Damage: 13
+    FireRate: 0.25
+    ReloadTime: 1.5
+    Range: 300
+    Accuracy: 3
+    Weight: 1.95
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 5611413600762720056, guid: 65a8e77f39926b441ab1e0cad0f515e6, type: 3}
+    GunIcon: {fileID: 21300000, guid: 72a64a3fceb5c644da64e76be1aa9d93, type: 3}
   defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
   gameModes:
   - ModeName: "\uD300 \uB370\uC2A4 \uB9E4\uCE58"
