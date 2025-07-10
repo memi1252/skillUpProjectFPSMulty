@@ -34,7 +34,7 @@ public class bl_LobbyRoomCreatorUI : MonoBehaviour
     {
         endPoints[0] = endPoints[0].Localized("player", true);
         endPoints[1] = endPoints[1].Localized("minute", true);
-        defaultRoomName = $"{bl_LobbyRoomCreator.Instance.defaultRoomPrefix} {Random.Range(10, 9999)}";
+        defaultRoomName = $"방 {Random.Range(10, 9999)}";
         roomInputField.text = defaultRoomName;
 
         MapSettingsSelector.SetOptions(bl_LobbyRoomCreator.Instance.MapList.Select(x => x.ShowName).ToArray());
