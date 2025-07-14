@@ -97,7 +97,7 @@ public class bl_RoomSettings : bl_MonoBehaviour
         {
             bl_UIReferences.Instance.AutoTeam(true);
             bl_UIReferences.Instance.ShowMenu(false);
-            Invoke(nameof(SelectTeamAutomatically), 3);
+            Invoke(nameof(SelectTeamAutomatically), 8);
         }
         else if (bl_MFPS.GameData.UsingWaitingRoom() && LocalPlayer.GetPlayerTeam() == Team.None)
         {
@@ -112,7 +112,7 @@ public class bl_RoomSettings : bl_MonoBehaviour
             {
                 bl_UIReferences.Instance.AutoTeam(true);
                 bl_UIReferences.Instance.ShowMenu(false);
-                Invoke(nameof(SelectTeamAutomatically), 3);
+                Invoke(nameof(SelectTeamAutomatically), 8); //스폰 시간
             }
             else
             {
