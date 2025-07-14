@@ -1314,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114128102488351638, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: bl_LobbyUI, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 114450249677194748, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1620,7 +1624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104125656827917090, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.322968
+      value: -26.322998
       objectReference: {fileID: 0}
     - target: {fileID: 2172993134881348308, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_IsActive
@@ -2789,6 +2793,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 6629711887866221153, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 6629715436186503169, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -2993,6 +3001,10 @@ PrefabInstance:
     - target: {fileID: 6630024762179333497, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
       value: "\uC720\uB7FD-\uC554\uC2A4\uD14C\uB974\uB2F4"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630024762179333497, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6630030024833624301, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
@@ -3984,6 +3996,10 @@ PrefabInstance:
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
+    - target: {fileID: 6631396265223790596, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 6631396265301619049, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -4492,6 +4508,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6631396266202266490, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6631396266202266490, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: bl_LobbyRoomCreatorUI, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6631396266208694626, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -4696,6 +4720,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.000015258789
       objectReference: {fileID: 0}
+    - target: {fileID: 7577344731514758953, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 7577731602905297491, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -4847,6 +4875,10 @@ PrefabInstance:
     - target: {fileID: 7578213119838336340, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578250287328013351, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 7578317601766977981, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_text
@@ -5823,7 +5855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053474612758431893, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.32492
+      value: -26.324951
       objectReference: {fileID: 0}
     - target: {fileID: 9053474612946586740, guid: 88411bd00e4bd9f43a283314addb1a28, type: 3}
       propertyPath: m_AnchorMax.y
