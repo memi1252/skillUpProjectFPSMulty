@@ -295,7 +295,7 @@ MonoBehaviour:
       UnlockAtLevel: 0
       NoAllowedCoins: 
     PickUpPrefab: {fileID: 8018984109641119737, guid: 6cad6b15ef02a8045ab401c977edfa0f, type: 3}
-    GunIcon: {fileID: 21300000, guid: 38349530c3a41fd4a8ecc2df82a57e3a, type: 3}
+    GunIcon: {fileID: 21300000, guid: 85d52c23ed8f12a4d82d43034aa0a8f7, type: 3}
   - Name: waterballoon
     Type: 5
     Active: 1
@@ -311,8 +311,8 @@ MonoBehaviour:
       Price: 0
       UnlockAtLevel: 0
       NoAllowedCoins: 
-    PickUpPrefab: {fileID: 8018984109641119737, guid: 6cad6b15ef02a8045ab401c977edfa0f, type: 3}
-    GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
+    PickUpPrefab: {fileID: 0}
+    GunIcon: {fileID: 21300000, guid: 32bd9cda824cd9e4ea70428b1020e63e, type: 3}
   defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
   gameModes:
   - ModeName: "\uD300 \uB370\uC2A4 \uB9E4\uCE58"

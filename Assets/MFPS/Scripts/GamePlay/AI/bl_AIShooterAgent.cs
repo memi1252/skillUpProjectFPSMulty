@@ -1318,7 +1318,6 @@ public class bl_AIShooterAgent : bl_AIShooter
     void OnMatchStart()
     {
         isGameStarted = bl_GameManager.Instance.GameMatchState != MatchState.Waiting && bl_MatchTimeManagerBase.Instance.TimeState == RoomTimeState.Started;
-        
         UpdateTargetList();
     }
 
