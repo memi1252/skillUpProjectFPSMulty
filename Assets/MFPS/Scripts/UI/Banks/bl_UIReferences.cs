@@ -375,7 +375,7 @@ public class bl_UIReferences : bl_PhotonHelper, IInRoomCallbacks
     /// 
     /// </summary>
     /// <param name="t_amount"></param>
-    void OnPicUpMedKit(int Amount) => new MFPSLocalNotification(string.Format("+{0} Health", Amount));
+    void OnPicUpMedKit(int Amount) => new MFPSLocalNotification(string.Format("+{0} 체력", Amount));
 
     /// <summary>
     /// 
