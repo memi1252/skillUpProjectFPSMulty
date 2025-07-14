@@ -354,7 +354,7 @@ public class bl_UIReferences : bl_PhotonHelper, IInRoomCallbacks
 #if LOCALIZATION
         SpawnProtectionText.text = string.Format(LocaleStrings[6].ToUpper(), count);
 #else
-        SpawnProtectionText.text = string.Format("SPAWN PROTECTION DISABLE IN: <b>{0}</b>", count);
+        SpawnProtectionText.text = string.Format("스폰 무적 비활성화 까지: <b>{0}</b>", count);
 #endif
         SpawnProtectionText.gameObject.SetActive(count > 0);
     }
