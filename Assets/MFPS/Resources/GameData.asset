@@ -302,9 +302,9 @@ MonoBehaviour:
     Damage: 100
     FireRate: 2
     ReloadTime: 2
-    Range: 125
+    Range: 150
     Accuracy: 1
-    Weight: 1.7
+    Weight: 0.5
     Unlockability:
       UnlockMethod: 0
       ItemType: 0
