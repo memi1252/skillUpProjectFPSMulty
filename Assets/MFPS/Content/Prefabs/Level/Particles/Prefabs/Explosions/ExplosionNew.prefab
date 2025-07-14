@@ -9672,7 +9672,7 @@ MonoBehaviour:
   explosionType: 0
   CheckRootsOnly: 0
   explosionDamage: 100
-  explosionRadius: 25
+  explosionRadius: 10
   DisappearIn: 3
   detectLayers:
     serializedVersion: 2
