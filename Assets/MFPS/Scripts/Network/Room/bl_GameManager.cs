@@ -164,10 +164,10 @@ public class bl_GameManager : bl_PhotonHelper, IInRoomCallbacks, IConnectionCall
         LocalActor.Name = PhotonNetwork.NickName;
 
         bl_CrosshairBase.Instance.Show(false);
-        if (bl_MFPS.GameData.UsingWaitingRoom() && bl_PhotonNetwork.LocalPlayer.GetPlayerTeam() != Team.None)
-        {
-            Invoke(nameof(SpawnPlayerWithCurrentTeam), 2);
-        }
+        //if (bl_MFPS.GameData.UsingWaitingRoom() && bl_PhotonNetwork.LocalPlayer.GetPlayerTeam() != Team.None)
+        //{
+        //    Invoke(nameof(SpawnPlayerWithCurrentTeam), 2);
+        //}
         Debug.Log($"Game Started, Online: {!bl_PhotonNetwork.OfflineMode} Master: {bl_PhotonNetwork.IsMasterClient} State: {GameMatchState.ToString()} TimeState: {bl_MatchTimeManagerBase.Instance.TimeState.ToString()}");
     }
 
