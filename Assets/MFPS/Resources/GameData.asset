@@ -283,11 +283,11 @@ MonoBehaviour:
     Type: 6
     Active: 1
     Damage: 100
-    FireRate: 0.7
-    ReloadTime: 1
-    Range: 1
+    FireRate: 2
+    ReloadTime: 2
+    Range: 150
     Accuracy: 1
-    Weight: 1.6
+    Weight: 0.5
     Unlockability:
       UnlockMethod: 0
       ItemType: 0
@@ -313,6 +313,23 @@ MonoBehaviour:
       NoAllowedCoins: 
     PickUpPrefab: {fileID: 0}
     GunIcon: {fileID: 21300000, guid: 32bd9cda824cd9e4ea70428b1020e63e, type: 3}
+  - Name: Karambit
+    Type: 6
+    Active: 1
+    Damage: 100
+    FireRate: 2
+    ReloadTime: 2
+    Range: 150
+    Accuracy: 1
+    Weight: 0.5
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 0
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    PickUpPrefab: {fileID: 0}
+    GunIcon: {fileID: 21300000, guid: 38349530c3a41fd4a8ecc2df82a57e3a, type: 3}
   defaultSettings: {fileID: 11400000, guid: 5fadfa78dabe7f6429f21e8ed3cc747b, type: 2}
   gameModes:
   - ModeName: "\uD300 \uB370\uC2A4 \uB9E4\uCE58"
