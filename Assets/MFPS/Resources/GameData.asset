@@ -285,7 +285,7 @@ MonoBehaviour:
     Damage: 100
     FireRate: 2
     ReloadTime: 2
-    Range: 150
+    Range: 2
     Accuracy: 1
     Weight: 0.5
     Unlockability:
@@ -302,7 +302,7 @@ MonoBehaviour:
     Damage: 100
     FireRate: 2
     ReloadTime: 2
-    Range: 150
+    Range: 80
     Accuracy: 1
     Weight: 0.5
     Unlockability:
